@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='org.zeroturnaround.eclipse.updatesite Artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1503295026452'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='9'>
+    <artifact classifier='osgi.bundle' id='org.zeroturnaround.eclipse' version='7.0.14.RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='9913929'/>
+        <property name='download.size' value='9913929'/>
+        <property name='download.md5' value='dc82fb959a635b539521cc98875cf639'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.zeroturnaround.eclipse.wtp.feature' version='7.0.14.RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='27923'/>
+        <property name='download.size' value='27923'/>
+        <property name='download.md5' value='7fc8043555b306158a6e2d66d5945bf2'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.zeroturnaround.eclipse.wtp' version='7.0.14.RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='120331'/>
+        <property name='download.size' value='120331'/>
+        <property name='download.md5' value='3a7076f973bfa91e7894a4aba7d9e818'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.zeroturnaround.eclipse.wtp.websphere' version='7.0.14.RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='18636'/>
+        <property name='download.size' value='18636'/>
+        <property name='download.md5' value='3be55f3a02e4e132147bfec45a9befe8'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.zeroturnaround.eclipse.embedder' version='7.0.14.RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='26569874'/>
+        <property name='download.size' value='26569874'/>
+        <property name='download.md5' value='c535c15696b9b26dc4ef3f60d2288127'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.zeroturnaround.eclipse.gradle' version='7.0.14.RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='13672'/>
+        <property name='download.size' value='13672'/>
+        <property name='download.md5' value='e3ce099850ab28c3dd00f557f05bd536'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.zeroturnaround.myeclipse.feature' version='7.0.14.RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='27891'/>
+        <property name='download.size' value='27891'/>
+        <property name='download.md5' value='bee92dd200338ee617a3ddd7f90faf72'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.zeroturnaround.eclipse.feature' version='7.0.14.RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='27930'/>
+        <property name='download.size' value='27930'/>
+        <property name='download.md5' value='9231bd8f432a45b7f58ff04dd36113b8'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.zeroturnaround.myeclipse' version='7.0.14.RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='14955'/>
+        <property name='download.size' value='14955'/>
+        <property name='download.md5' value='d3d8bb6808773f4bdd7b8bb3a98da1d5'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
